@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.not-found-bg-container-light {
+  height: 100vh;
+}
+
+.not-found-content-container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.not-found-image {
+  width: 140px;
+  height: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+.not-found-heading-light {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading-light {
+    font-size: 34px;
+  }
+}
+
+.not-found-description-light {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description-light {
+    font-size: 18px;
+  }
+}
+
+.not-found-bg-container-dark {
+  background-color: #000000;
+  height: 100vh;
+}
+
+.not-found-content-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.not-found-heading-dark {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  color: #dcdcdc;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading-dark {
+    font-size: 34px;
+  }
+}
+
+.not-found-description-dark {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #dcdcdc;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description-dark {
+    font-size: 18px;
+  }
+}

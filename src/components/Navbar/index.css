@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.navbar-container-light {
+  width: 100%;
+  padding: 10px 10px 5px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container-light {
+    padding: 20px 20px 10px 20px;
+  }
+}
+
+.nav-items-container-light {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcdcdc;
+  padding: 0px 20px 10px 20px;
+}
+
+.website-logo {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.home-about-nav-items-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-item-light {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 0px 5px 0px 5px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item-light {
+    font-size: 20px;
+  }
+}
+
+.mode {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .mode {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.navbar-container-dark {
+  width: 100%;
+  padding: 10px 10px 5px 10px;
+  background-color: #333333;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container-dark {
+    padding: 20px 20px 10px 20px;
+  }
+}
+
+.nav-items-container-dark {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+.nav-item-dark {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 0px 5px 0px 5px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item-dark {
+    font-size: 20px;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+}
